@@ -64,8 +64,8 @@ Moving around:
    a    s    d
         x
 
-w/x : increase/decrease linear velocity
-a/d : increase/decrease angular velocity
+w/x : increase/decrease linear velocity (Waffle: ~ 0.26)
+a/d : increase/decrease angular velocity (Waffle: ~ 1.82)
 
 space key, s : force stop
 
