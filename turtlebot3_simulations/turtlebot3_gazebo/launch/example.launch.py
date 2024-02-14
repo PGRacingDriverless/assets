@@ -45,10 +45,10 @@ from launch.conditions import IfCondition, UnlessCondition
 from launch.substitutions import Command, LaunchConfiguration, PythonExpression
 
 def generate_launch_description():
-  this_directory = get_package_share_directory('velodyne_description')
+  this_directory = get_package_share_directory('turtlebot3_gazebo')
   xacro_path = os.path.join(this_directory, 'urdf', 'example.urdf.xacro')
   rviz_config_file = os.path.join(this_directory, 'rviz', 'example.rviz')
-  world = os.path.join(this_directory, 'world', 'example.world')
+  world = os.path.join(this_directory, 'worlds', 'example.world')
 
   declare_gpu_cmd = DeclareLaunchArgument(
     'gpu',
