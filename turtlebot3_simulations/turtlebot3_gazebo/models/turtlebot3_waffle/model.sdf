@@ -246,7 +246,7 @@
         </geometry>
       </collision>
       <sensor name="velodyne-VLP16" type="ray">
-        <pose>0 0 0 0 0 0</pose>
+        <pose>-0.064 0 0.2 0 0 0</pose>
         <visualize>false</visualize>
         <update_rate>10</update_rate>
         <ray>
@@ -283,8 +283,8 @@
           <tf_prefix></tf_prefix>
           <frame_name>velodyne</frame_name>
           <organize_cloud>False</organize_cloud>
-          <min_range>0.9</min_range>
-          <max_range>130.0</max_range>
+          <min_range>0.1</min_range>
+          <max_range>60.0</max_range>
           <gaussian_noise>0.008</gaussian_noise>
         </plugin>
       </sensor>
@@ -367,7 +367,7 @@
         </geometry>
       </collision>
       <sensor name="velodyne2-HDL32E" type="ray">
-        <pose>0 0 0 0 0 0</pose>
+        <pose>-0.064 0 0.2 0 0 0</pose>
         <visualize>false</visualize>
         <update_rate>10</update_rate>
         <ray>
@@ -404,7 +404,7 @@
           <tf_prefix></tf_prefix>
           <frame_name>velodyne2</frame_name>
           <organize_cloud>False</organize_cloud>
-          <min_range>0.9</min_range>
+          <min_range>0.1</min_range>
           <max_range>130.0</max_range>
           <gaussian_noise>0.008</gaussian_noise>
         </plugin>
