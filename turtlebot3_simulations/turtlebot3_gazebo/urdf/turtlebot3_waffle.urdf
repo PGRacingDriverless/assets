@@ -251,13 +251,13 @@
     </collision>
 
     <!-- This inertial field needs doesn't contain reliable data!! -->
-<!--   <inertial>
+    <!-- <inertial>
       <mass value="0.564" />
       <origin xyz="0 0 0" />
       <inertia ixx="0.003881243" ixy="0.0" ixz="0.0"
                iyy="0.000498940" iyz="0.0"
                izz="0.003879257" />
-    </inertial>-->
+    </inertial> -->
   </link>
 
   <joint name="camera_rgb_joint" type="fixed">
@@ -291,7 +291,7 @@
   <link name="camera_depth_optical_frame"/>
 
   <!-- VELODYNE GENERATED -->
-   <joint name="velodyne_base_mount_joint" type="fixed">
+  <joint name="velodyne_base_mount_joint" type="fixed">
     <origin rpy="0 0 0" xyz="-0.064 0 0.2"/>
     <parent link="base_link"/>
     <child link="velodyne_base_link"/>
@@ -388,6 +388,7 @@
       </plugin>
     </sensor>
   </gazebo>
+
   <joint name="velodyne2_base_mount_joint" type="fixed">
     <origin rpy="0 0 0" xyz="-0.064 0 0.3"/>
     <parent link="base_link"/>

@@ -95,7 +95,7 @@
       </sensor>
     </link>
 
-    <link name="base_scan">    
+    <link name="base_scan">
       <inertial>
         <pose>-0.052 0 0.111 0 0 0</pose>
         <inertia>
@@ -164,6 +164,259 @@
         </plugin>
       </sensor>
     </link>
+
+    <!-- ADDED VELODYNE -->
+    <!-- VLP16 -->
+    <link name="velodyne_base_link">
+      <inertial>
+        <mass>0.83</mass>
+        <pose>0 0 0.03585 0 0 0</pose>
+        <inertia>
+          <ixx>0.000908059425</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.000908059425</iyy>
+          <iyz>0</iyz>
+          <izz>0.0011049624</izz>
+        </inertia>
+      </inertial>
+      <visual name="velodyne_base_link_visual_1">
+        <pose>-0.064 0 0.2 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://turtlebot3_gazebo/models/turtlebot3_waffle/meshes/VLP16_base_1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="velodyne_base_link_visual_2">
+        <pose>-0.064 0 0.2 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://turtlebot3_gazebo/models/turtlebot3_waffle/meshes/VLP16_base_2.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="velodyne_base_link_collision">
+        <pose>-0.064 0 0.2 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.0717</length>
+            <radius>0.0516</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="velodyne_base_mount_joint" type="fixed">
+      <parent>base_link</parent>
+      <child>velodyne_base_link</child>
+      <pose>-0.064 0 0.2 0 0 0</pose>
+    </joint>
+
+    <link name="velodyne">
+      <inertial>
+        <mass>0.01</mass>
+        <pose>0 0 0 0 0 0</pose>
+        <inertia>
+          <ixx>1e-7</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>1e-7</iyy>
+          <iyz>0</iyz>
+          <izz>1e-7</izz>
+        </inertia>
+      </inertial>
+      <visual name="velodyne_visual">
+        <pose>-0.064 0 0.2 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://turtlebot3_gazebo/models/turtlebot3_waffle/meshes/VLP16_scan.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="velodyne_collision">
+        <pose>-0.064 0 0.2 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>0</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <sensor name="velodyne-VLP16" type="ray">
+        <pose>0 0 0 0 0 0</pose>
+        <visualize>false</visualize>
+        <update_rate>10</update_rate>
+        <ray>
+          <scan>
+            <horizontal>
+              <samples>440</samples>
+              <resolution>1</resolution>
+              <min_angle>-3.141592653589793</min_angle>
+              <max_angle>3.141592653589793</max_angle>
+            </horizontal>
+            <vertical>
+              <samples>16</samples>
+              <resolution>1</resolution>
+              <min_angle>-0.2617993877991494</min_angle>
+              <max_angle> 0.2617993877991494</max_angle>
+            </vertical>
+          </scan>
+          <range>
+            <min>0.3</min>
+            <max>131.0</max>
+            <resolution>0.001</resolution>
+          </range>
+          <noise>
+            <type>gaussian</type>
+            <mean>0.0</mean>
+            <stddev>0.0</stddev>
+          </noise>
+        </ray>
+        <plugin filename="libgazebo_ros_velodyne_laser.so" name="gazebo_ros_laser_controller">
+          <ros>
+            <namespace>/velodyne</namespace>
+            <remapping>~/out:=/velodyne_points</remapping>
+          </ros>
+          <tf_prefix></tf_prefix>
+          <frame_name>velodyne</frame_name>
+          <organize_cloud>False</organize_cloud>
+          <min_range>0.9</min_range>
+          <max_range>130.0</max_range>
+          <gaussian_noise>0.008</gaussian_noise>
+        </plugin>
+      </sensor>
+    </link>
+
+    <joint name="velodyne_base_scan_joint" type="fixed">
+      <parent>velodyne_base_link</parent>
+      <child>velodyne</child>
+      <pose>0 0 0.0377 0 0 0</pose>
+    </joint>
+
+    <!-- HDL32E -->
+    <link name="velodyne2_base_link">
+      <inertial>
+        <mass>1.0</mass>
+        <pose>0 0 0.07212 0 0 0</pose>
+        <inertia>
+          <ixx>0.002188947025</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.002188947025</iyy>
+          <iyz>0</iyz>
+          <izz>0.00091036445</izz>
+        </inertia>
+      </inertial>
+      <visual name="velodyne2_base_link_visual">
+        <pose>-0.064 0 0.3 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://turtlebot3_gazebo/models/turtlebot3_waffle/meshes/HDL32E_base.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="velodyne2_base_link_collision">
+        <pose>-0.064 0 0.2 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.14424</length>
+            <radius>0.04267</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="velodyne2_base_mount_joint" type="fixed">
+      <parent>base_link</parent>
+      <child>velodyne2_base_link</child>
+      <pose>-0.064 0 0.3 0 0 0</pose>
+    </joint>
+
+    <link name="velodyne2">
+      <inertial>
+        <mass>0.01</mass>
+        <pose>0 0 0 0 0 0</pose>
+        <inertia>
+          <ixx>1e-7</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>1e-7</iyy>
+          <iyz>0</iyz>
+          <izz>1e-7</izz>
+        </inertia>
+      </inertial>
+      <visual name="velodyne2_visual">
+        <pose>-0.064 0 0.3 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://turtlebot3_gazebo/models/turtlebot3_waffle/meshes/HDL32E_scan.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="velodyne2_collision">
+        <pose>-0.064 0 0.2 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>0</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <sensor name="velodyne2-HDL32E" type="ray">
+        <pose>0 0 0 0 0 0</pose>
+        <visualize>false</visualize>
+        <update_rate>10</update_rate>
+        <ray>
+          <scan>
+            <horizontal>
+              <samples>220</samples>
+              <resolution>1</resolution>
+              <min_angle>-3.141592653589793</min_angle>
+              <max_angle>3.141592653589793</max_angle>
+            </horizontal>
+            <vertical>
+              <samples>32</samples>
+              <resolution>1</resolution>
+              <min_angle>-0.5352924815866609</min_angle>
+              <max_angle> 0.18622663118779495</max_angle>
+            </vertical>
+          </scan>
+          <range>
+            <min>0.3</min>
+            <max>131.0</max>
+            <resolution>0.001</resolution>
+          </range>
+          <noise>
+            <type>gaussian</type>
+            <mean>0.0</mean>
+            <stddev>0.0</stddev>
+          </noise>
+        </ray>
+        <plugin filename="libgazebo_ros_velodyne_laser.so" name="gazebo_ros_laser_controller">
+          <ros>
+            <namespace>/velodyne2</namespace>
+            <remapping>~/out:=/velodyne_points2</remapping>
+          </ros>
+          <tf_prefix></tf_prefix>
+          <frame_name>velodyne2</frame_name>
+          <organize_cloud>False</organize_cloud>
+          <min_range>0.9</min_range>
+          <max_range>130.0</max_range>
+          <gaussian_noise>0.008</gaussian_noise>
+        </plugin>
+      </sensor>
+    </link>
+
+    <joint name="velodyne2_base_scan_joint" type="fixed">
+      <parent>velodyne2_base_link</parent>
+      <child>velodyne2</child>
+      <pose>0 0 0.09081 0 0 0</pose>
+    </joint>
+    <!-- VELODYNE END -->
 
     <link name="wheel_left_link">
 
@@ -379,15 +632,15 @@
         <pose>0.064 -0.047 0.107 0 0 0</pose>
         <camera name="realsense_depth_camera">
         </camera>
-	<plugin name="intel_realsense_r200_depth_driver" filename="libgazebo_ros_camera.so">
+	        <plugin name="intel_realsense_r200_depth_driver" filename="libgazebo_ros_camera.so">
             <ros>
-        <!-- 
+              <!-- 
               <argument>custom_camera/image_raw:=custom_camera/custom_image</argument>
               <argument>custom_camera/image_depth:=custom_camera/custom_image_depth</argument>
               <argument>custom_camera/camera_info:=custom_camera/custom_info_raw</argument>
               <argument>custom_camera/camera_info_depth:=custom_camera/custom_info_depth</argument>
               <argument>custom_camera/points:=custom_camera/custom_points</argument> 
-        -->
+              -->
             </ros>
             <camera_name>intel_realsense_r200_depth</camera_name>
             <frame_name>realsense_depth_frame</frame_name>
@@ -400,7 +653,7 @@
         <always_on>true</always_on>
         <visualize>true</visualize>
         <update_rate>30</update_rate>
-	<pose>0.064 -0.047 0.107 0 0 0</pose>
+	      <pose>0.064 -0.047 0.107 0 0 0</pose>
         <camera name="realsense_rgb_camera">
           <horizontal_fov>1.02974</horizontal_fov>
           <image>
