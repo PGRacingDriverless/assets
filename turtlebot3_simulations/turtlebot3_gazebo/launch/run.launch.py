@@ -13,13 +13,16 @@ from launch.events import Shutdown
 from launch.conditions import IfCondition, UnlessCondition
 
 def generate_launch_description():
+    TURTLEBOT3_MODEL = os.environ['TURTLEBOT3_MODEL']
+    GAZEBO_WORLD = os.environ['GAZEBO_WORLD']
+
     # ===== GAZEBO CLIENT AND SERVER =====
     pkg_gazebo_ros = get_package_share_directory('gazebo_ros')
 
     world = os.path.join(
         get_package_share_directory('turtlebot3_gazebo'),
         'worlds',
-        'turtlebot3_world.world'
+        GAZEBO_WORLD + '.world'
     )
 
     gzserver_cmd = IncludeLaunchDescription(
@@ -50,8 +53,6 @@ def generate_launch_description():
         launch_arguments={'world' : world, 'gui' : gui}.items()
     )
     # ==============================
-    
-    TURTLEBOT3_MODEL = os.environ['TURTLEBOT3_MODEL']
     
     # ===== STATE PUBLISHER =====
     # xacro version
