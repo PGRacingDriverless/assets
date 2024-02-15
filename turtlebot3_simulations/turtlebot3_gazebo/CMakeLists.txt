@@ -77,6 +77,8 @@ install(DIRECTORY include/
   DESTINATION include/
 )
 
+ament_environment_hooks("${CMAKE_CURRENT_SOURCE_DIR}/env-hooks/velodyne_description.dsv.in")
+
 ################################################################################
 # Macro for ament package
 ################################################################################

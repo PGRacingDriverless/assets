@@ -46,7 +46,7 @@ from launch.substitutions import Command, LaunchConfiguration, PythonExpression
 
 def generate_launch_description():
   this_directory = get_package_share_directory('turtlebot3_gazebo')
-  xacro_path = os.path.join(this_directory, 'urdf', 'example.urdf.xacro')
+  xacro_path = os.path.join(this_directory, 'urdf', 'turtlebot3_waffle.urdf.xacro')
   rviz_config_file = os.path.join(this_directory, 'rviz', 'example.rviz')
   world = os.path.join(this_directory, 'worlds', 'example.world')
 
@@ -77,7 +77,7 @@ def generate_launch_description():
     package='gazebo_ros', 
     executable='spawn_entity.py',
     arguments=[
-      '-entity', 'example',
+      '-entity', 'turtlebot3_waffle',
       '-topic', 'robot_description',
     ],
     output='screen',

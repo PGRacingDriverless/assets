@@ -17,20 +17,20 @@ import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
-from launch.substitutions import LaunchConfiguration
+from launch.substitutions import Command, LaunchConfiguration
 from launch_ros.actions import Node
 
 
 def generate_launch_description():
     # Get the urdf file
     TURTLEBOT3_MODEL = os.environ['TURTLEBOT3_MODEL']
-    model_folder = 'turtlebot3_' + TURTLEBOT3_MODEL
-    urdf_path = os.path.join(
-        get_package_share_directory('turtlebot3_gazebo'),
-        'models',
-        model_folder,
-        'model.sdf'
-    )
+    # model_folder = 'turtlebot3_' + TURTLEBOT3_MODEL
+    # urdf_path = os.path.join(
+    #     get_package_share_directory('turtlebot3_gazebo'),
+    #     'models',
+    #     model_folder,
+    #     'model.sdf'
+    # )
 
     # Launch configuration variables specific to simulation
     x_pose = LaunchConfiguration('x_pose', default='0.0')
@@ -49,8 +49,9 @@ def generate_launch_description():
         package='gazebo_ros',
         executable='spawn_entity.py',
         arguments=[
-            '-entity', TURTLEBOT3_MODEL,
-            '-file', urdf_path,
+            '-entity', 'turtlebot3_waffle',
+            '-topic', 'robot_description',
+            # '-file', urdf_path,
             '-x', x_pose,
             '-y', y_pose,
             '-z', '0.01'
