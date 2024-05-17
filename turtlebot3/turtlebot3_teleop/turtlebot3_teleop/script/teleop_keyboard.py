@@ -48,7 +48,7 @@ else:
     import termios
     import tty
 
-WAFFLE_MAX_LIN_VEL = 0.26
+WAFFLE_MAX_LIN_VEL = 0.56
 WAFFLE_MAX_ANG_VEL = 1.82
 
 LIN_VEL_STEP_SIZE = 0.01
