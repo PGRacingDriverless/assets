@@ -7,23 +7,22 @@ def main(args=None):
     turtlebot_mover = turtlebot3_move.TurtleBotMover()
 
     try:
-        turtlebot_mover.turn_to_angle(300)
-        turtlebot_mover.move_to_point(0.2, 1.35)
         turtlebot_mover.turn_to_angle(0)
-        turtlebot_mover.move_to_point(0.2, 2.84)
+        turtlebot_mover.move_to_point(0.2, 1.0)
+        turtlebot_mover.turn_to_angle(45)
+        turtlebot_mover.move_to_point(0.1, 1.0)
+        turtlebot_mover.move_to_point(0.4, 9.0)
+        turtlebot_mover.turn_to_angle(0)
         turtlebot_mover.turn_to_angle(90)
-        turtlebot_mover.move_to_point(0.2, 3.25)
+        turtlebot_mover.move_to_point(0.2, 1.4)
         turtlebot_mover.turn_to_angle(180)
-        turtlebot_mover.move_to_point(0.2, 2.8)
+        turtlebot_mover.move_to_point(0.2, 10.0)
         turtlebot_mover.turn_to_angle(240)
-        turtlebot_mover.move_to_point(0.2, 1.3)
-        turtlebot_mover.turn_to_angle(0)
-        turtlebot_mover.move_to_point(0.2, 3.5)
+        turtlebot_mover.move_to_point(0.2, 7.0)
         turtlebot_mover.turn_to_angle(270)
-        turtlebot_mover.move_to_point(0.2, 1.05)
-        turtlebot_mover.turn_to_angle(180)
-        turtlebot_mover.move_to_point(0.2, 3.5)
+        turtlebot_mover.move_to_point(0.2, 7.0)
         turtlebot_mover.turn_to_angle(0)
+        turtlebot_mover.move_to_point(0.2, 8.0)
     except KeyboardInterrupt:
         pass
 
