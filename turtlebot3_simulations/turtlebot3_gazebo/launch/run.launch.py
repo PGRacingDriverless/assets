@@ -115,16 +115,16 @@ def generate_launch_description():
         'model.sdf'
     )
 
-    x_pose = LaunchConfiguration('x_pose', default='-2.0')
-    y_pose = LaunchConfiguration('y_pose', default='-0.5')
+    x_pose = LaunchConfiguration('x_pose', default='0')
+    y_pose = LaunchConfiguration('y_pose', default='0')
 
     declare_x_position_cmd = DeclareLaunchArgument(
         'x_pose',
-        default_value='-2.0',
+        default_value='0',
         description='Specify namespace of the robot')
     declare_y_position_cmd = DeclareLaunchArgument(
         'y_pose',
-        default_value='-0.5',
+        default_value='0',
         description='Specify namespace of the robot')
 
     spawn_turtlebot_cmd = Node(
@@ -157,7 +157,7 @@ def generate_launch_description():
     )
     # ==============================
 
-    # ===== RVIZ2 EXIT HANDLER (HZ NAHUJA) =====
+    # ===== RVIZ2 EXIT HANDLER =====
     exit_event_handler = RegisterEventHandler(
         event_handler=OnProcessExit(
             target_action=start_rviz_cmd,

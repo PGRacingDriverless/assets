@@ -4,6 +4,7 @@ This repository contains the robot, its model, worlds, launch script for simulat
 - [Robot](#Robot)
     - [Build and Run](#Build-and-Run)
 - [List of worlds](#List-of-worlds)
+- [License](#License)
 
 # Robot
 The robot is based on TurtleBot3 with the added Intel RealSense depth camera and Velodyne Lidars.
@@ -48,3 +49,15 @@ ros2 run turtlebot3_teleop teleop_keyboard
 - turtlebot3_house
 - turtlebot3_dqn_stage4
 - jackal_race
+
+# License
+The following packages are distributed under the Apache license:
+- DynamixelSDK
+- turtlebot3
+- turtlebot3_msgs
+- turtlebot3_simulations
+
+The following packages are distributed under the BSD license:
+- velodyne_description
+- velodyne_gazebo_plugin
+- velodyne_simulator
