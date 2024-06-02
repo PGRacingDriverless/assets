@@ -95,14 +95,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -134,14 +134,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -173,14 +173,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -212,14 +212,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -251,14 +251,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -290,14 +290,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -329,14 +329,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -368,14 +368,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -407,14 +407,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -446,14 +446,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -488,14 +488,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -529,14 +529,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -570,14 +570,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -612,14 +612,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -651,14 +651,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -690,14 +690,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -729,14 +729,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -768,14 +768,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -807,14 +807,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -846,14 +846,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -885,14 +885,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -924,14 +924,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -963,14 +963,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1006,14 +1006,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1045,14 +1045,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1084,14 +1084,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1123,14 +1123,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1162,14 +1162,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1201,14 +1201,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1240,14 +1240,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1279,14 +1279,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1318,14 +1318,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1357,14 +1357,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1399,14 +1399,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1440,14 +1440,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1481,14 +1481,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1523,14 +1523,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1562,14 +1562,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1601,14 +1601,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1640,14 +1640,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1679,14 +1679,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1718,14 +1718,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1757,14 +1757,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1796,14 +1796,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1835,14 +1835,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1874,14 +1874,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1917,14 +1917,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1956,14 +1956,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1995,14 +1995,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2034,14 +2034,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2073,14 +2073,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2112,14 +2112,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2151,14 +2151,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2190,14 +2190,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2229,14 +2229,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2268,14 +2268,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2311,14 +2311,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2350,14 +2350,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2389,14 +2389,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2428,14 +2428,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2467,14 +2467,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2506,14 +2506,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2545,14 +2545,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2584,14 +2584,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2623,14 +2623,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2662,14 +2662,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2704,14 +2704,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2745,14 +2745,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2787,14 +2787,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2826,14 +2826,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2865,14 +2865,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2904,14 +2904,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2943,14 +2943,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2982,14 +2982,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3021,14 +3021,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3060,14 +3060,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3099,14 +3099,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3138,14 +3138,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3175,10 +3175,10 @@
       <pose>4.55618 -4 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>1875 401000000</sim_time>
-      <real_time>360 217819395</real_time>
-      <wall_time>1717323929 305002316</wall_time>
-      <iterations>358055</iterations>
+      <sim_time>1725 319000000</sim_time>
+      <real_time>208 364392090</real_time>
+      <wall_time>1717323777 451575002</wall_time>
+      <iterations>207973</iterations>
       <model name='drc_practice_angled_barrier_135'>
         <pose>-6.19884 8.64913 0 0 -0 -2.35209</pose>
         <scale>1 1 1</scale>
@@ -3744,14 +3744,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://jackal_race/drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
