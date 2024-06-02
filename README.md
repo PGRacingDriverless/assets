@@ -44,11 +44,11 @@ ros2 run turtlebot3_teleop teleop_keyboard
 ```
 
 # List of worlds
-- empty_world
 - turtlebot3_world
 - turtlebot3_house
 - turtlebot3_dqn_stage4
 - jackal_race
+- factory
 
 # License
 The following packages are distributed under the Apache license:
