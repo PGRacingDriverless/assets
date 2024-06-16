@@ -14,16 +14,8 @@ def main(args=None):
 
     try:
         turtlebot_mover.print_gazebo_and_slam_positions()
-        turtlebot_mover.turn_to_angle(350)
-        turtlebot_mover.move_by_distance(SPEED, 3.2)
-        turtlebot_mover.print_gazebo_and_slam_positions()
-        turtlebot_mover.turn_to_angle(90)
-        turtlebot_mover.move_by_distance(SPEED, 1.4)
-        turtlebot_mover.print_gazebo_and_slam_positions()
-
-        # right side of house
         turtlebot_mover.turn_to_angle(0)
-        turtlebot_mover.move_by_distance(SPEED, 5.0)
+        turtlebot_mover.move_by_distance(SPEED, 8.3)
         turtlebot_mover.print_gazebo_and_slam_positions()
         turtlebot_mover.turn_to_angle(270)
         turtlebot_mover.move_by_distance(SPEED, 1.5)

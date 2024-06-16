@@ -4,6 +4,7 @@ from geometry_msgs.msg import Twist
 from nav_msgs.msg import Odometry
 from gazebo_msgs.msg import ModelStates
 from graphslam_msgs.srv import GetPose
+import matplotlib.pyplot as plt
 import math
 import time
 
@@ -198,41 +199,43 @@ class TurtleBotMover(Node):
             self.get_logger().warn('Gazebo or SLAM position not available yet')
 
     def calculate_and_save_errors(self, filename, num):
-        import math
-        import matplotlib.pyplot as plt
-        
         total_absolute_error = 0.0
         total_slam_distance = 0.0
         cumulative_errors = []
         cumulative_percent_errors = []
+        squared_errors = []
 
         for point in self.positions:
             x_s, y_s = point["x_s"], point["y_s"]
             x_g, y_g = point["x_g"], point["y_g"]
             
-            error = math.sqrt((x_s - x_g) ** 2 + (y_s - y_g) ** 2)
+            absolute_error = math.sqrt((x_s - x_g) ** 2 + (y_s - y_g) ** 2)
+            squared_error = absolute_error ** 2
             slam_distance = math.sqrt(x_s ** 2 + y_s ** 2)
             
-            total_absolute_error += error
+            total_absolute_error += absolute_error
+            squared_errors.append(squared_error)
             total_slam_distance += slam_distance
             
             cumulative_errors.append(total_absolute_error)
             cumulative_percent_errors.append((total_absolute_error / total_slam_distance) * 100 if total_slam_distance != 0 else 0)
         
+        mse = sum(squared_errors) / len(self.positions)
+        rmse = math.sqrt(mse)
         average_absolute_error = total_absolute_error / len(self.positions)
         average_percentage_error = (total_absolute_error / total_slam_distance) * 100 if total_slam_distance != 0 else 0
 
         with open(filename + '_' + str(num) + '.txt', 'w') as f:
-            f.write("Positions:\n")
             for i, point in enumerate(self.positions):
-                f.write(f'Step {i+1}: SLAM Position = ({point["x_s"]}, {point["y_s"]}), Gazebo Position = ({point["x_g"]}, {point["y_g"]})\n')
+                f.write(f'n {i+1}: slam = ({point["x_s"]}, {point["y_s"]}), gazebo = ({point["x_g"]}, {point["y_g"]})\n')
             
-            f.write("\nErrors:\n")
             for i in range(len(cumulative_errors)):
-                f.write(f'Step {i+1}: Absolute Error = {cumulative_errors[i]}, Percent Error = {cumulative_percent_errors[i]}\n')
+                f.write(f'n {i+1}: cumm abs err = {cumulative_errors[i]}, cumm prc err = {cumulative_percent_errors[i]}%\n')
             
-            f.write(f'\nAverage Absolute Error: {average_absolute_error}\n')
-            f.write(f'Average Percentage Error: {average_percentage_error}%\n')
+            f.write(f'\navg abs err: {average_absolute_error}\n')
+            f.write(f'avg prc err: {average_percentage_error}%\n')
+            f.write(f'MSE: {mse}\n')
+            f.write(f'RMSE: {rmse}\n')
 
         plt.figure(figsize=(10, 5))
         plt.plot(cumulative_errors, label='Cumulative Absolute Error (m)')
