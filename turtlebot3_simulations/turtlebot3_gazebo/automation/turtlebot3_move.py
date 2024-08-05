@@ -199,50 +199,40 @@ class TurtleBotMover(Node):
             self.get_logger().warn('Gazebo or SLAM position not available yet')
 
     def calculate_and_save_errors(self, filename, num):
-        total_absolute_error = 0.0
-        total_slam_distance = 0.0
-        cumulative_errors = []
-        cumulative_percent_errors = []
-        squared_errors = []
-
+        cumulative_squared_errors = []
+        total_squared_error = 0.0
+        mse_values = []
+        rmse_values = []
+        
         for point in self.positions:
             x_s, y_s = point["x_s"], point["y_s"]
             x_g, y_g = point["x_g"], point["y_g"]
             
             absolute_error = math.sqrt((x_s - x_g) ** 2 + (y_s - y_g) ** 2)
             squared_error = absolute_error ** 2
-            slam_distance = math.sqrt(x_s ** 2 + y_s ** 2)
+            total_squared_error += squared_error
+            cumulative_squared_errors.append(total_squared_error)
             
-            total_absolute_error += absolute_error
-            squared_errors.append(squared_error)
-            total_slam_distance += slam_distance
-            
-            cumulative_errors.append(total_absolute_error)
-            cumulative_percent_errors.append((total_absolute_error / total_slam_distance) * 100 if total_slam_distance != 0 else 0)
-        
-        mse = sum(squared_errors) / len(self.positions)
-        rmse = math.sqrt(mse)
-        average_absolute_error = total_absolute_error / len(self.positions)
-        average_percentage_error = (total_absolute_error / total_slam_distance) * 100 if total_slam_distance != 0 else 0
+            mse = total_squared_error / (len(cumulative_squared_errors))
+            rmse = math.sqrt(mse)
+            mse_values.append(mse)
+            rmse_values.append(rmse)
 
         with open(filename + '_' + str(num) + '.txt', 'w') as f:
             for i, point in enumerate(self.positions):
                 f.write(f'n {i+1}: slam = ({point["x_s"]}, {point["y_s"]}), gazebo = ({point["x_g"]}, {point["y_g"]})\n')
-            
-            for i in range(len(cumulative_errors)):
-                f.write(f'n {i+1}: cumm abs err = {cumulative_errors[i]}, cumm prc err = {cumulative_percent_errors[i]}%\n')
-            
-            f.write(f'\navg abs err: {average_absolute_error}\n')
-            f.write(f'avg prc err: {average_percentage_error}%\n')
-            f.write(f'MSE: {mse}\n')
-            f.write(f'RMSE: {rmse}\n')
+            f.write('\nMSE at each step: [' + ', '.join(f'{mse:.7f}' for mse in mse_values) + ']\n')
+            f.write('RMSE at each step: [' + ', '.join(f'{rmse:.7f}' for rmse in rmse_values) + ']\n')
+            f.write(f'\nFinal MSE: {mse_values[-1]:.7f}\n')
+            f.write(f'Final RMSE: {rmse_values[-1]:.7f}\n')
 
+        # Plotting MSE and RMSE over time
         plt.figure(figsize=(10, 5))
-        plt.plot(cumulative_errors, label='Cumulative Absolute Error (m)')
-        plt.plot(cumulative_percent_errors, label='Cumulative Percent Error (%)', linestyle='--')
+        plt.plot(mse_values, label='MSE')
+        plt.plot(rmse_values, label='RMSE', linestyle='--')
         plt.xlabel('Measurement Step')
-        plt.ylabel('Error')
-        plt.title('Cumulative Error between SLAM and Gazebo Positions')
+        plt.ylabel('Error Value')
+        plt.title('MSE and RMSE over Time between SLAM and Gazebo Positions')
         plt.legend()
         plt.grid(True)
         plt.savefig(filename + '_plot_' + str(num) + '.png')
